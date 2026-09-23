@@ -2,7 +2,7 @@
 // COLLEGE TIMETABLE - Supabase
 // ==============================
 // Replace these two values with your Supabase Project URL and Publishable key.
-const SUPABASE_URL = "https://dlkbrhrsflyxxykjfqyc.supabase.co/rest/v1/";
+const SUPABASE_URL = "https://dlkbrhrsflyxxykjfqyc.supabase.co";
 const SUPABASE_KEY = "sb_publishable_rA6PKUIOCn0Mxiv3D7pqIw_k64ubXlU";
 
 const configured = !SUPABASE_URL.includes("YOUR_") && !SUPABASE_KEY.includes("YOUR_");
