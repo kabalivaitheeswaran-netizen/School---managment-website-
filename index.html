@@ -13,7 +13,7 @@
       <div class="brand-mark">CT</div>
       <h1>College Timetable</h1>
       <p class="muted">Sign in to view your timetable and college updates.</p>
-      <div class="tabs"><button class="tab active" data-auth="login">Login</button><button class="tab" data-auth="signup">Create account</button></div>
+      <div class="tabs"><button class="tab active" data-auth="login">Login</button><button type="button" class="tab" data-auth="signup" onclick="setAuthMode('signup')">Create account</button></div>
       <form id="authForm">
         <label>Email<input id="email" type="email" required autocomplete="email" /></label>
         <label>Password<input id="password" type="password" required minlength="6" autocomplete="current-password" /></label>
